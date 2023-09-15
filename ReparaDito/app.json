@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "reparadito",
+    "slug": "reparadito",
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_solo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reparadito"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.reparadito"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "reparadito",
+    "extra": {
+      "eas": {
+        "projectId": "3b2cbe9e-5c03-4090-9aee-2b0681b1a74e"
+      }
+    },
+    "owner": "arielgomez"
+  }
+}
