@@ -407,7 +407,7 @@ const DetailInfo = (props) => {
                   return(
                     <View
                       key={comment.id}
-                      style={[styles.comment, styles.commentContainer]}
+                      style={[styles.comment, styles.commentsContainer]}
                     >
                       <View style={styles.commentTitleContainer}>
                         <Text style={styles.commentTitle}>{comment.title}</Text>
